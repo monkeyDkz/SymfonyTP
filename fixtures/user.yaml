@@ -1,0 +1,9 @@
+App\Entity\User:
+  user_{1..10}:
+    uid: <(App\DataFixtures\Provider\UuidProvider::uuidV7())>
+    username: <username()>
+    password: <password()>
+    roles: ['ROLE_USER']
+    email: <email()>
+    firstName: <firstName()>
+    lastName: <lastName()>

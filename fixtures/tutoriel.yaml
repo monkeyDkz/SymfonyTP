@@ -1,0 +1,5 @@
+App\Entity\Tutoriel:
+  tutoriel_{1..10}:
+    title: <sentence()>
+    content: <paragraph()>
+    matiere: '@matiere_<numberBetween(1,5)>'

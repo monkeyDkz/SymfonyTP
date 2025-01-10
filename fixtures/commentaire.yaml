@@ -1,0 +1,5 @@
+App\Entity\Commentaire:
+  commentaire_{1..30}:
+    content: <paragraph()>
+    user: '@user_<numberBetween(1,10)>'
+    tutoriel: '@tutoriel_<numberBetween(1,10)>'
